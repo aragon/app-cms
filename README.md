@@ -5,7 +5,7 @@ This repository contains the featured DAOs data used by Aragon applications.
 ## Usage
 
 The featured DAOs data can be accessed at:
-https://raw.githubusercontent.com/aragon/featured-daos/main/featured-daos.json
+https://raw.githubusercontent.com/aragon/app-featured-daos/main/featured-daos.json
 
 ## Data Format
 
