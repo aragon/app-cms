@@ -11,9 +11,11 @@ https://raw.githubusercontent.com/aragon/featured-daos/main/featured-daos.json
 
 Each DAO object has the following fields:
 
-**name:** Name of the DAO.
-**description:** Description of the DAO.
-**logo:** URL of the logo of the DAO.
-**network:** Network the DAO is deployed on.
-**daoAddress:** The address of the DAO
-**overrideUrl:** Used if we want to link to an external page
+| Field | Description |
+|-------|-------------|
+| **name** | Name of the DAO. |
+| **description** | Description of the DAO. |
+| **logo** | URL of the logo of the DAO. |
+| **network** | Network the DAO is deployed on. |
+| **daoAddress** | The address of the DAO. |
+| **overrideUrl** | Used if we want to link to an external page. |
