@@ -1,13 +1,15 @@
-# Featured DAOs Data Repository
+# Aragon App CMS
+
+## Featured DAOs
 
 This repository contains the featured DAOs data used by Aragon applications.
 
-## Usage
+#### Usage
 
 The featured DAOs data can be accessed at:
 https://raw.githubusercontent.com/aragon/app-cms/main/featured-daos.json
 
-## Data Format
+#### Data Format
 
 Each DAO object contains the following fields:
 
