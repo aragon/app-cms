@@ -1,0 +1,20 @@
+{
+  "name": "app-cms",
+  "version": "1.0.0",
+  "description": "Data repository for the Aragon application.",
+  "author": "Aragon Association",
+  "homepage": "https://github.com/aragon/app-cms#readme",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aragon/app-cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aragon/app-cms/issues"
+  },
+  "keywords": [
+    "aragon",
+    "dao",
+    "cms"
+  ]
+}
