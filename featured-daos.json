@@ -38,7 +38,7 @@
   {
     "name": "Mode",
     "description": "The Mode Governance Hub enables the community to participate in scaling DeFi to billions of users.",
-    "logo": "https://github.com/mode-network/brandkit/blob/main/Assets/Logo/Token.png",
+    "logo": "https://raw.githubusercontent.com/mode-network/brandkit/refs/heads/main/Assets/Logo/Token.png",
     "networkLabel": "mode",
     "address": "0xcf2c9a22b58f125f929cb8e8b29a6d7e2c4287ff",
     "overrideUrl": "https://gov.mode.network/"
