@@ -1,25 +1,32 @@
 # Aragon App CMS
 
+This repository stores dynamic data consumed by the [Aragon application](https://app.aragon.org).
+It provides up-to-date information such as **featured DAOs** and **sanctioned addresses**.
+
 ## Featured DAOs
 
-This repository contains the featured DAOs data used by Aragon applications.
+The list of featured DAOs is available at:
+[**featured-daos.json**](https://raw.githubusercontent.com/aragon/app-cms/main/featured-daos.json)
 
-#### Usage
+### Data Structure
 
-The featured DAOs data can be accessed at:
-https://raw.githubusercontent.com/aragon/app-cms/main/featured-daos.json
+Each DAO entry is a JSON object with the following fields:
 
-#### Data Format
+| Field            | Required | Description                        | Notes                                                                  |
+| ---------------- | -------- | ---------------------------------- | ---------------------------------------------------------------------- |
+| **name**         | ✅       | DAO name                           | —                                                                      |
+| **description**  | ✅       | Brief description of the DAO       | —                                                                      |
+| **logo**         | ✅       | URL to the DAO’s logo image        | —                                                                      |
+| **network**      | ❌       | Network where the DAO is deployed  | Required if the network is supported by the Aragon application         |
+| **networkLabel** | ❌       | Human-readable network name        | Required if the network is **not** supported by the Aragon application |
+| **address**      | ❌       | On-chain DAO contract address      | Required if the DAO is supported by the Aragon application             |
+| **ens**          | ❌       | ENS name of the DAO                | Required if the DAO is supported by the Aragon application             |
+| **overrideUrl**  | ❌       | External link to the DAO’s website | Required if the DAO is **not** supported by the Aragon application     |
 
-Each DAO object contains the following fields:
+## Sanctioned Addresses
 
-| Field            | Required | Description                    | Notes                                                      |
-| ---------------- | -------- | ------------------------------ | ---------------------------------------------------------- |
-| **name**         | `true`   | Name of the DAO                | -                                                          |
-| **description**  | `true`   | Description of the DAO         | -                                                          |
-| **logo**         | `true`   | URL of the DAO logo            | -                                                          |
-| **network**      | `false`  | Network the DAO is deployed on | Required if the network is supported by the Aragon App     |
-| **networkLabel** | `false`  | Label of the DAO network       | Required if the network is not supported by the Aragon App |
-| **address**      | `false`  | Address of the DAO             | Required if the DAO is supported by the Aragon App         |
-| **ens**          | `false`  | ENS of the DAO                 | Required if the DAO is supported by the Aragon App         |
-| **overrideUrl**  | `false`  | External URL of the DAO        | Required if the DAO is not supported by the Aragon App     |
+The list of sanctioned addresses is available at:
+[**sanctioned-addresses.json**](https://raw.githubusercontent.com/aragon/app-cms/main/sanctioned-addresses.json)
+
+This list is used to identify blockchain addresses that are restricted from accessing certain features of the Aragon application.
+The list is derived from the official [OFAC Specially Designated Nationals (SDN) List](https://sanctionslist.ofac.treas.gov/Home/SdnList).
