@@ -29,3 +29,4 @@ The list of sanctioned addresses is available at:
 [**sanctioned-addresses.json**](https://raw.githubusercontent.com/aragon/app-cms/main/sanctioned-addresses.json)
 
 This list is used to identify blockchain addresses that are restricted from accessing certain features of the Aragon application.
+The list is derived from the official [OFAC Specially Designated Nationals (SDN) List](https://sanctionslist.ofac.treas.gov/Home/SdnList).
