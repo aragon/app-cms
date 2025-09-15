@@ -14,6 +14,14 @@
     "overrideUrl": "https://governance.polygon.technology/"
   },
   {
+    "name": "Boundless",
+    "description": "Boundless Governance is dedicated to bringing ZK to every blockchain, developer, and everyone in between.",
+    "logo": "https://aragon-1.mypinata.cloud/ipfs/QmRXNfeMtFVGuuJFLFBj8WuH6ZjMr6kykzNfesinF5mhA7",
+    "network": "ethereum-mainnet",
+    "ens": "boundless.dao.eth",
+    "address": "0xeC46dC83347e664cD3F3bF219B7C2a79e7A6A8Fd"
+  },
+  {
     "name": "Taiko DAO",
     "description": "Taiko DAO gives token holders and delegates onchain veto rights to secure the Taiko based rollup.",
     "logo": "https://pbs.twimg.com/profile_images/1823377013186691072/jPGLrNT0_400x400.png",
@@ -29,6 +37,14 @@
     "overrideUrl": "https://vote.puffer.fi/"
   },
   {
+    "name": "Steakhouse Financial",
+    "description": "Steakhouse's MetaMorpho vaults utilize Aragon Guardian DAOs to provide transparent and trustless community oversight.",
+    "logo": "https://pbs.twimg.com/profile_images/1937810644964716545/LDiOF-l0_400x400.jpg",
+    "network": "ethereum-mainnet",
+    "address": "0xaa0500198B4425DfC4E272FbE42C8E64E21fc03d",
+    "overrideUrl": "https://app.morpho.org/ethereum/curator/steakhouse-financial"
+  },
+  {
     "name": "Curve Finance",
     "description": "Curve.fi DAO lets CRV holders lock their tokens to make onchain-enforceable changes to the Curve protocol.",
     "logo": "https://pbs.twimg.com/profile_images/1220560374346461185/W1sQNVWo_400x400.jpg",
@@ -42,14 +58,6 @@
     "networkLabel": "mode",
     "address": "0xcf2c9a22b58f125f929cb8e8b29a6d7e2c4287ff",
     "overrideUrl": "https://gov.mode.network/"
-  },
-  {
-    "name": "Steakhouse Financial",
-    "description": "Steakhouse's MetaMorpho vaults utilize Aragon Guardian DAOs to provide transparent and trustless community oversight.",
-    "logo": "https://pbs.twimg.com/profile_images/1937810644964716545/LDiOF-l0_400x400.jpg",
-    "network": "ethereum-mainnet",
-    "address": "0xaa0500198B4425DfC4E272FbE42C8E64E21fc03d",
-    "overrideUrl": "https://app.morpho.org/ethereum/curator/steakhouse-financial"
   },
   {
     "name": "Aragon Foundation",
