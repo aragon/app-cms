@@ -30,3 +30,77 @@ The list of sanctioned addresses is available at:
 
 This list is used to identify blockchain addresses that are restricted from accessing certain features of the Aragon application.
 The list is derived from the official [OFAC Specially Designated Nationals (SDN) List](https://sanctionslist.ofac.treas.gov/Home/SdnList).
+
+## Feature Flags
+
+Feature flags allow controlling feature visibility across different environments without code changes.
+
+The feature flags configuration is available at:
+[**feature-flags.json**](https://github.com/aragon/app-cms/blob/main/feature-flags.json)
+
+### Data Structure
+
+Feature flags can be configured in three formats:
+
+#### 1. Simple format (same value for all environments)
+
+```json
+{
+    "subDao": true
+}
+```
+
+#### 2. Environment-specific format
+
+```json
+{
+    "subDao": {
+        "local": true,
+        "preview": false,
+        "development": false,
+        "staging": false,
+        "production": false
+    }
+}
+```
+
+#### 3. Mixed format
+
+```json
+{
+    "debugPanel": true,
+    "subDao": {
+        "local": true,
+        "preview": false,
+        "production": false
+    }
+}
+```
+
+### Supported Environments
+
+-   `local` - Local development
+-   `preview` - Preview deployments
+-   `development` - Development environment
+-   `staging` - Staging environment
+-   `production` - Production environment
+
+### How It Works
+
+1. Feature flags are first defined in code with default values
+2. CMS overrides can modify these defaults per environment
+3. Local cookie-based overrides (for debugging) take highest priority
+
+**Priority order:**
+
+```
+Local override (cookie) > CMS override > Environment-specific (code) > Default (code)
+```
+
+### Adding a New Flag
+
+1. The flag must first be defined in the codebase (`featureFlags.config.ts`)
+2. The flag key must be added to the `FeatureFlagKey` type
+3. Optionally, add the flag to this CMS file to override defaults
+
+For more details, see the [Feature Flags README](https://github.com/aragon/app/src/shared/utils/featureFlags/README.md) in the application codebase.
