@@ -1,0 +1,16 @@
+{
+  "debugPanel": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": false,
+    "production": false
+  },
+  "subDao": {
+    "local": true,
+    "preview": false,
+    "development": false,
+    "staging": false,
+    "production": false
+  }
+}
