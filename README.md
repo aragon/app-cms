@@ -127,7 +127,7 @@ The file is a JSON object where keys are network identifiers and values are arra
 }
 ```
 
-| Field       | Type       | Description                                      |
-| ----------- | ---------- | ------------------------------------------------ |
-| **network** | `string`   | Network identifier (e.g., `ethereum-mainnet`)    |
-| **address** | `string[]` | Array of spam token contract addresses to filter |
+| Element                                | Type       | Description                                      |
+| -------------------------------------- | ---------- | ------------------------------------------------ |
+| **Top-level key (network identifier)** | `string`   | Network identifier (e.g., `ethereum-mainnet`)    |
+| **Value**                              | `string[]` | Array of spam token contract addresses to filter |
