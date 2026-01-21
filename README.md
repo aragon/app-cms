@@ -104,3 +104,30 @@ Local override (cookie) > CMS override > Environment-specific (code) > Default (
 3. Optionally, add the flag to this CMS file to override defaults
 
 For more details, see the [Feature Flags README](https://github.com/aragon/app/src/shared/utils/featureFlags/README.md) in the application codebase.
+
+## Spam Tokens
+
+The list of spam tokens is available at:
+[**spam-tokens.json**](https://raw.githubusercontent.com/aragon/app-cms/main/spam-tokens.json)
+
+This list contains token contract addresses that are identified as spam or malicious. The Aragon application uses this list to filter out these tokens from being displayed in DAO treasuries and token lists.
+
+### Data Structure
+
+The file is a JSON object where keys are network identifiers and values are arrays of token contract addresses:
+
+```json
+{
+    "ethereum-mainnet": [
+        "0x2747eE1EE8490Ce2f1853600c28a3846353d9d31"
+    ],
+    "polygon-mainnet": [
+        "0xcf68f02d7dD6a4642AE6a77f6A3676D0CBC834c9"
+    ]
+}
+```
+
+| Element                                | Type       | Description                                      |
+| -------------------------------------- | ---------- | ------------------------------------------------ |
+| **Top-level key (network identifier)** | `string`   | Network identifier (e.g., `ethereum-mainnet`)    |
+| **Value**                              | `string[]` | Array of spam token contract addresses to filter |
