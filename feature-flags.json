@@ -8,9 +8,9 @@
   },
   "subDao": {
     "local": true,
-    "preview": false,
-    "development": false,
-    "staging": false,
+    "preview": true,
+    "development": true,
+    "staging": true,
     "production": false
   },
   "capitalFlowAutomation": {
