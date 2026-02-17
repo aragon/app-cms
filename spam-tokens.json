@@ -1,6 +1,7 @@
 {
     "ethereum-mainnet": [
-        "0x2747eE1EE8490Ce2f1853600c28a3846353d9d31"
+        "0x2747eE1EE8490Ce2f1853600c28a3846353d9d31",
+        "0xA19847fE15E8cAc3d7f40272414C68acA8258436"
     ],
     "polygon-mainnet": [
         "0xcf68f02d7dD6a4642AE6a77f6A3676D0CBC834c9"
