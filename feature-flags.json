@@ -11,7 +11,7 @@
     "preview": true,
     "development": true,
     "staging": true,
-    "production": false
+    "production": true
   },
   "capitalFlowAutomation": {
     "local": true,
