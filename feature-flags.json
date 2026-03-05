@@ -13,6 +13,13 @@
     "staging": true,
     "production": true
   },
+  "linkedAccount": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": true,
+    "production": true
+  },
   "capitalFlowAutomation": {
     "local": true,
     "preview": true,
