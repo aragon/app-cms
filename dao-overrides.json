@@ -23,11 +23,6 @@
                 "address": "0x453D0792f28aa694e533a7fFbe06F4e11e2b7885",
                 "name": "veCTX Guardians",
                 "comment": "Exclude this body from governance navigation and member selection."
-            },
-            {
-                "address": "0x35a6218E26BFAea74888A1F37d8Ee40e502A1C3D",
-                "name": "Multisig",
-                "comment": "Exclude this body from governance navigation and member selection."
             }
         ]
     }
