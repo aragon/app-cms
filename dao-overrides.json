@@ -1,0 +1,18 @@
+{
+    "base-mainnet-0xfEA21e0500022F34dE0a02Ae3A7D04dF923Ed020": {
+        "daoName": "XMAQUINA",
+        "comment": "Hide governance bodies that should not be exposed in the members, proposals, and settings flows.",
+        "pluginsToHide": [
+            {
+                "address": "0x6214EB90BE7D84588De57F539754D6827FFF07a6",
+                "name": "xDEUS Holders",
+                "comment": "Exclude this body from governance navigation and member selection."
+            },
+            {
+                "address": "0x615c9EebAd03f4831C5F0C05d4EBc6F925253EBF",
+                "name": "Northstar Council",
+                "comment": "Exclude this body from governance navigation and member selection."
+            }
+        ]
+    }
+}
