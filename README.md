@@ -31,6 +31,53 @@ The list of sanctioned addresses is available at:
 This list is used to identify blockchain addresses that are restricted from accessing certain features of the Aragon application.
 The list is derived from the official [OFAC Specially Designated Nationals (SDN) List](https://sanctionslist.ofac.treas.gov/Home/SdnList).
 
+## DAO Overrides
+
+DAO overrides allow hiding specific governance plugins for a given DAO without redeploying the application.
+
+The configuration is available at:
+[**dao-overrides.json**](https://raw.githubusercontent.com/aragon/app-cms/main/dao-overrides.json)
+
+### Data Structure
+
+The file is a JSON object where:
+
+- the top-level key is the DAO identifier used by the app, for example `base-mainnet-0x...`
+- the value is a DAO override object
+
+Recommended schema:
+
+```json
+{
+    "base-mainnet-0x123...": {
+        "daoName": "Example DAO",
+        "comment": "Explain why these plugins are hidden.",
+        "pluginsToHide": [
+            {
+                "address": "0xabc...",
+                "name": "Example Plugin",
+                "comment": "Human-readable note about this exclusion."
+            }
+        ]
+    }
+}
+```
+
+| Field               | Required | Description                                                                 |
+| ------------------- | -------- | --------------------------------------------------------------------------- |
+| **daoName**         | ❌       | Human-readable DAO name for editors and reviewers                           |
+| **comment**         | ❌       | High-level explanation of why the override exists                           |
+| **pluginsToHide**   | ✅       | Array of hidden plugin objects                                              |
+| **pluginsToHide.address** | ✅ | Plugin contract address used by the app to hide the plugin                  |
+| **pluginsToHide.name** | ✅    | Human-readable plugin name                                                  |
+| **pluginsToHide.comment** | ❌ | Per-plugin explanation or context                                           |
+
+### Notes
+
+1. `pluginsToHide` is the field used by the application logic.
+2. Matching is done by `pluginsToHide[].address` and is case-insensitive.
+3. `daoName`, `comment`, `pluginsToHide[].name`, and `pluginsToHide[].comment` are documentation metadata meant to keep the file understandable for humans.
+
 ## Feature Flags
 
 Feature flags allow controlling feature visibility across different environments without code changes.
