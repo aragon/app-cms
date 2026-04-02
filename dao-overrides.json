@@ -12,6 +12,11 @@
                 "address": "0x1370a17ea6E6805410DC58A96884301f1838d44c",
                 "name": "xDEUS Holders",
                 "comment": "Exclude this body from governance navigation and member selection."
+            },
+            {
+                "address": "0x3e5598c1b34dA6E198E4Bd7d20Acb287D9e88c91",
+                "name": "XMAQUINA Gauges",
+                "comment": "XMAQUINA needed velockers but not gauges."
             }
         ]
     },

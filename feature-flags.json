@@ -19,5 +19,12 @@
     "development": true,
     "staging": false,
     "production": false
+  },
+  "gateAdvancedGovernance": {
+    "local": false,
+    "preview": false,
+    "development": false,
+    "staging": false,
+    "production": true
   }
 }
