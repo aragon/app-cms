@@ -1,0 +1,12 @@
+[
+  {
+    "daoAddress": "0xEB4813f79E18bbd62F9222CC98F5049B872F5c04",
+    "pluginAddress": "0x35d4Bd14Cb0251Ba1A25F985E2D643dA5f3af8b6",
+    "network": "ethereum-sepolia",
+    "delegates": [
+      "0x3C1BF79559F6543daA510a71E16E58370510C551",
+      "0x6818013d7B2D49D7396BA9733b59C539A639f3ED",
+      "0x455e3DEFBC6b48D9127CF6acC609F5cEa87cA759"
+    ]
+  }
+]
