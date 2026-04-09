@@ -93,7 +93,7 @@ Feature flags can be configured in three formats:
 
 ```json
 {
-    "subDao": true
+    "linkedAccount": true
 }
 ```
 
@@ -101,7 +101,7 @@ Feature flags can be configured in three formats:
 
 ```json
 {
-    "subDao": {
+    "linkedAccount": {
         "local": true,
         "preview": false,
         "development": false,
@@ -116,7 +116,7 @@ Feature flags can be configured in three formats:
 ```json
 {
     "debugPanel": true,
-    "subDao": {
+    "linkedAccount": {
         "local": true,
         "preview": false,
         "production": false

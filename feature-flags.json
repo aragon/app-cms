@@ -6,13 +6,6 @@
     "staging": false,
     "production": false
   },
-  "subDao": {
-    "local": true,
-    "preview": true,
-    "development": true,
-    "staging": true,
-    "production": true
-  },
   "linkedAccount": {
     "local": true,
     "preview": true,
