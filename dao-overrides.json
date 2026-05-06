@@ -19,5 +19,16 @@
                 "comment": "XMAQUINA needed velockers but not gauges."
             }
         ]
+    },
+    "avax-mainnet-0x0738688cB4F27B0c66938Ce36C79969A1CD0fD3B": {
+        "daoName": "Test",
+        "comment": "Test bug APP-654. This can be reverted the next time this file is updated.",
+        "pluginsToHide": [
+            {
+                "address": "0x3Ca30641522Bb06A7cAd20f28570F290E4392c5D",
+                "name": "Token voting",
+                "comment": "Exclude this body from governance navigation and member selection."
+            }
+        ]
     }
 }
