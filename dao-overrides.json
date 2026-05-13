@@ -28,6 +28,11 @@
                 "address": "0x8AB7f7B617B5248358ea9c9B728f3C2eDbAa97a2",
                 "name": "Citrea Gauges",
                 "comment": "Citrea will have gauges later but not now."
+            },
+            {
+                "address": "0x03eE762fceab112B019a84CBd2d3626dd4fCBaB3",
+                "name": "Core Governance Delegate (Veto)",
+                "comment": "They have the same token holders in multiple processes. This is just to hide the redundant one."
             }
         ]
     },
