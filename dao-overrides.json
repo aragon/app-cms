@@ -4,6 +4,16 @@
         "comment": "Hide governance bodies that should not be exposed in the members, proposals, and settings flows.",
         "pluginsToHide": [
             {
+                "address": "0x6214EB90BE7D84588De57F539754D6827FFF07a6",
+                "name": "xDEUS Holders",
+                "comment": "Exclude this body from governance navigation and member selection."
+            },
+            {
+                "address": "0x1370a17ea6E6805410DC58A96884301f1838d44c",
+                "name": "xDEUS Holders",
+                "comment": "Exclude this body from governance navigation and member selection."
+            },
+            {
                 "address": "0x3e5598c1b34dA6E198E4Bd7d20Acb287D9e88c91",
                 "name": "XMAQUINA Gauges",
                 "comment": "XMAQUINA needed velockers but not gauges."
