@@ -26,5 +26,61 @@
     "development": false,
     "staging": false,
     "production": true
+  },
+  "governanceDesigner": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": true,
+    "production": true
+  },
+  "osxUpdates": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": true,
+    "production": true
+  },
+  "useMocks": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": false,
+    "production": false
+  },
+  "enableAllPlugins": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": false,
+    "production": false
+  },
+  "existingProposalCreationCondition": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": false,
+    "production": false
+  },
+  "aragonProfiles": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": true,
+    "production": true
+  },
+  "supportChat": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": false,
+    "production": false
+  },
+  "permissionsPage": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": false,
+    "production": false
   }
 }
