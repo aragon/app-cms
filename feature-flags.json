@@ -75,12 +75,5 @@
     "development": true,
     "staging": false,
     "production": false
-  },
-  "permissionsPage": {
-    "local": true,
-    "preview": true,
-    "development": true,
-    "staging": false,
-    "production": false
   }
 }
