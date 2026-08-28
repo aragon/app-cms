@@ -75,5 +75,12 @@
     "development": true,
     "staging": false,
     "production": false
+  },
+  "telegramSubscription": {
+    "local": true,
+    "preview": true,
+    "development": true,
+    "staging": true,
+    "production": true
   }
 }
