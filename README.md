@@ -146,11 +146,12 @@ Local override (cookie) > CMS override > Environment-specific (code) > Default (
 
 ### Adding a New Flag
 
-1. The flag must first be defined in the codebase (`featureFlags.config.ts`)
+1. The flag must first be defined in the codebase (`featureFlags.constants.ts`)
 2. The flag key must be added to the `FeatureFlagKey` type
 3. Optionally, add the flag to this CMS file to override defaults
 
-For more details, see the [Feature Flags README](https://github.com/aragon/app/src/shared/utils/featureFlags/README.md) in the application codebase.
+For more details, see the [Feature Flags README](https://github.com/aragon/app/blob/main/apps/app/src/shared/featureFlags/README.md) in the application codebase.
+
 
 ## Spam Tokens
 
