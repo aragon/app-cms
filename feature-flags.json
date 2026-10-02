@@ -67,14 +67,14 @@
     "preview": true,
     "development": true,
     "staging": true,
-    "production": false
+    "production": true
   },
   "supportChatDocs": {
     "local": true,
     "preview": true,
     "development": true,
     "staging": true,
-    "production": false
+    "production": true
   },
   "telegramSubscription": {
     "local": true,
