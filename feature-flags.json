@@ -35,11 +35,11 @@
     "production": true
   },
   "osxUpdates": {
-    "local": true,
-    "preview": true,
-    "development": true,
-    "staging": true,
-    "production": true
+    "local": false,
+    "preview": false,
+    "development": false,
+    "staging": false,
+    "production": false
   },
   "useMocks": {
     "local": true,
