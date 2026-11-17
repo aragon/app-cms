@@ -131,6 +131,18 @@ Feature flags can be configured in three formats:
 -   `development` - Development environment
 -   `staging` - Staging environment
 -   `production` - Production environment
+-   `occ` - Soft-launch environment (new.app.aragon.org)
+
+`occ` extends `production`: a flag without an `occ` value takes its `production` value, so only the flags that differ need an `occ` entry.
+
+```json
+{
+    "workspaces": {
+        "production": false,
+        "occ": true
+    }
+}
+```
 
 ### How It Works
 
