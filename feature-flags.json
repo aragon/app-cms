@@ -109,6 +109,7 @@
     "preview": false,
     "development": false,
     "staging": false,
-    "production": false
+    "production": false,
+    "occ": true
   }
 }
